@@ -138,29 +138,5 @@ void main(){
     printf("\n| OR %.0f   |",  NN[0].CamadaOculta[0].Neuronios[0].Saida);
     printf("\n| NAND %.0f |",  NN[0].CamadaOculta[0].Neuronios[1].Saida);
     printf("\n| XOR %.0f  |",  NN[0].CamadaSaida.Neuronios[0].Saida);
-   /* Neuronio OR;
-    OR.input[0] = x1;
-    OR.input[1] = x2;
-    OR.peso[0] = 2;
-    OR.peso[1] = 2;
-    OR.bias = -1;
 
-    Neuronio NAND;
-    NAND.input[0] = x1;
-    NAND.input[1] = x2;
-    NAND.peso[0] = -1;
-    NAND.peso[1] = -1;
-    NAND.bias = 1.5;
-
-
-    Neuronio AND;
-    AND.input[0] = g(OR);
-    AND.input[1] = g(NAND);
-    AND.peso[0] = 1;
-    AND.peso[1] = 1;
-    AND.bias = -1.5;*/
-
-
-
-    //printf("X1 %.0f X2 %.0f", NN[0].CamadaEntrada.Neuronios[0].Saida, NN->CamadaEntrada.Neuronios[1].Saida);
 }
